@@ -1,146 +1,141 @@
 {
-    "$schema": "https://frexy.ai/docs.json",
-    "theme": "mint",
-    "name": "Frexy AI",
-    "colors": {
-        "primary": "#000000",
-        "light": "#07C983",
-        "dark": "#000000"
-    },
+  "$schema": "https://frexy.ai/docs.json",
+  "theme": "mint",
+  "name": "Frexy AI",
+  "colors": {
+    "primary": "#000000",
+    "light": "#07C983",
+    "dark": "#000000"
+  },
   "head": [
-  {
-    "tag": "script",
-    "attrs": {
-      "src": "https://frexyai-lab-threejs-embed-staging.vercel.app/load.js?merchantId=8835f9b7-8f78-47de-b5aa-a3a870852a4c",
-      "defer": true
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "https://frexyai-lab-threejs-embed-staging.vercel.app/load.js?merchantId=8835f9b7-8f78-47de-b5aa-a3a870852a4c",
+        "defer": true
+      }
+    }
+  ],
+  "favicon": "/favicon.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
+            "group": "Writing content",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "AI tools",
+            "pages": [
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API reference",
+        "groups": [
+          {
+            "group": "API documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
+          "icon": "slack"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/Logo-black.svg",
+    "dark": "/logo/Logo-black.svg"
+  },
+  "logoText": "Frexy AI",
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://www.frexy.ai",
+      "style": {
+        "backgroundColor": "#000000",
+        "color": "#FFFFFF"
+      }
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
-]
-
-    "favicon": "/favicon.png",
-    "navigation": {
-        "tabs": [
-            {
-                "tab": "Guides",
-                "groups": [
-                    {
-                        "group": "Getting started",
-                        "pages": [
-                            "index",
-                            "quickstart",
-                            "development"
-                        ]
-                    },
-                    {
-                        "group": "Customization",
-                        "pages": [
-                            "essentials/settings",
-                            "essentials/navigation"
-                        ]
-                    },
-                    {
-                        "group": "Writing content",
-                        "pages": [
-                            "essentials/markdown",
-                            "essentials/code",
-                            "essentials/images",
-                            "essentials/reusable-snippets"
-                        ]
-                    },
-                    {
-                        "group": "AI tools",
-                        "pages": [
-                            "ai-tools/cursor",
-                            "ai-tools/claude-code",
-                            "ai-tools/windsurf"
-                        ]
-                    }
-                ]
-            },
-            {
-                "tab": "API reference",
-                "groups": [
-                    {
-                        "group": "API documentation",
-                        "pages": [
-                            "api-reference/introduction"
-                        ]
-                    },
-                    {
-                        "group": "Endpoint examples",
-                        "pages": [
-                            "api-reference/endpoint/get",
-                            "api-reference/endpoint/create",
-                            "api-reference/endpoint/delete",
-                            "api-reference/endpoint/webhook"
-                        ]
-                    }
-                ]
-            }
-        ],
-        "global": {
-            "anchors": [
-                {
-                    "anchor": "Documentation",
-                    "href": "https://mintlify.com/docs",
-                    "icon": "book-open-cover"
-                },
-                {
-                    "anchor": "Community",
-                    "href": "https://mintlify.com/community",
-                    "icon": "slack"
-                },
-                {
-                    "anchor": "Blog",
-                    "href": "https://mintlify.com/blog",
-                    "icon": "newspaper"
-                }
-            ]
-        }
-    },
-    "logo": {
-        "light": "/logo/Logo-black.svg",
-        "dark": "/logo/Logo-black.svg",
-        "logoText": "Frexy AI",
-        "size": {
-            "height": 48,
-            "width": 200
-        }
-    },
-    "navbar": {
-        "links": [
-            {
-                "label": "Support",
-                "href": "mailto:hi@mintlify.com"
-            }
-        ],
-        "primary": {
-            "type": "button",
-            "label": "Dashboard",
-            "href": "https://www.frexy.ai",
-            "style": {
-                "backgroundColor": "#000000",
-                "color": "#FFFFFF"
-            }
-        }
-    },
-    "contextual": {
-        "options": [
-            "copy",
-            "view",
-            "chatgpt",
-            "claude",
-            "perplexity",
-            "mcp",
-            "cursor",
-            "vscode"
-        ]
-    },
-    "footer": {
-        "socials": {
-            "x": "https://x.com/mintlify",
-            "github": "https://github.com/mintlify",
-            "linkedin": "https://linkedin.com/company/mintlify"
-        }
-    }
 }
