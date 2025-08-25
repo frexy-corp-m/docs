@@ -3,7 +3,7 @@
   "theme": "mint",
   "name": "Frexy AI",
   "colors": {
-    "primary": "#0040ff",
+    "primary": "#000000",
     "light": "#07C983",
     "dark": "#15803D"
   },
@@ -100,10 +100,14 @@
       }
     ],
     "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+  "type": "button",
+  "label": "Dashboard",
+  "href": "https://www.frexy.ai",
+  "style": {
+    "backgroundColor": "#000000",
+    "color": "#FFFFFF"
+  }
+}
   },
   "contextual": {
     "options": [
