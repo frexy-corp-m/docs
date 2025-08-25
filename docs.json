@@ -1,6 +1,6 @@
 {
     "$schema": "https://frexy.ai/docs.json",
-    "theme": "mint",
+    "theme": "maple",
     "name": "Frexy AI",
     "colors": {
         "primary": "#000000",
@@ -91,6 +91,7 @@
     "logo": {
         "light": "/logo/Logo-black.svg",
         "dark": "/logo/Logo-black.svg",
+        "logoText": "Frexy AI",
         "size": {
             "height": 48,
             "width": 200
