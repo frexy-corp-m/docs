@@ -7,6 +7,16 @@
         "light": "#07C983",
         "dark": "#000000"
     },
+  "head": [
+  {
+    "tag": "script",
+    "attrs": {
+      "src": "https://frexyai-lab-threejs-embed-staging.vercel.app/load.js?merchantId=8835f9b7-8f78-47de-b5aa-a3a870852a4c",
+      "defer": true
+    }
+  }
+]
+
     "favicon": "/favicon.png",
     "navigation": {
         "tabs": [
