@@ -1,6 +1,6 @@
 {
     "$schema": "https://frexy.ai/docs.json",
-    "theme": "maple",
+    "theme": "mint",
     "name": "Frexy AI",
     "colors": {
         "primary": "#000000",
