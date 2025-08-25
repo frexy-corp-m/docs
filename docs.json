@@ -7,7 +7,12 @@
     "light": "#07C983",
     "dark": "#000000"
   },
-  
+  "head": [
+    {
+      "tag": "script",
+      "content": "window.onload = function() { var iframe = document.createElement('iframe'); iframe.src = 'https://frexyai-lab-threejs-embed-staging.vercel.app/load.js?merchantId=8835f9b7-8f78-47de-b5aa-a3a870852a4c'; iframe.style='width:100%;height:600px;border:none;'; document.body.appendChild(iframe); };"
+    }
+  ],
   "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
@@ -49,12 +54,12 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "FAQs",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "FAQs",
             "pages": [
-              "api-reference/introduction"
+              "FAQs/All FAQs"
             ]
           },
           {
@@ -91,9 +96,13 @@
   },
   "logo": {
     "light": "/logo/Logo-black.svg",
-    "dark": "/logo/Logo-black.svg"
+    "dark": "/logo/Logo-black.svg",
+    "logoText": "Frexy AI",
+    "size": {
+      "height": 48,
+      "width": 200
+    }
   },
-  "logoText": "Frexy AI",
   "navbar": {
     "links": [
       {
